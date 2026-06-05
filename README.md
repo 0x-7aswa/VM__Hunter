@@ -123,4 +123,4 @@ The integrated detection engine currently evaluates target telemetry against 35+
 ## Author & Copyright
 **0x-7aswa** — Cybersecurity Engineer
 
-© 2026 0x-7aswa. All Rights Reserved. This software was developed solely by the author. Unauthorized copying, modification, distribution, or commercial use of this codebase without explicit permission is strictly prohibited.
+© 2026 0x-7aswa. All Rights Reserved.
