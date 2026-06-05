@@ -5,31 +5,6 @@ VM Threat Hunter is an advanced, agentless, automated Threat Hunting Tool engine
 
 Developed as a Capstone Project for the National Telecommunications Institute (NTI) 4-Month Scholarship, this platform demonstrates enterprise-grade software architecture, seamless UI/UX, and robust Hunt Reporting capabilities suitable for modern SOC environments.
 
-## project structure
-
-VM_Threat_Hunter/
-│
-├── main.py                  # Graphical User Interface (GUI) entry point
-├── requirements.txt         # Project dependencies and libraries
-├── rules.json               # Decoupled MITRE-aligned detection engine rules
-├── vms.json                 # Target virtual machines configuration and credentials
-│
-├── gui/                     # Frontend and UI Components
-│   ├── __init__.py
-│   ├── app.py               # Main application window, threading, and live console
-│   ├── report_panel.py      # Analytics dashboard, visual charts, and rules viewer
-│   └── vm_card.py           # Individual target tracking and connection testing UI
-│
-├── hunting/                 # Core Detection and Correlation Engine
-│   ├── __init__.py
-│   ├── checks.py            # Regex pattern matching and multi-step event correlation
-│   ├── engine.py            # Multi-threading task dispatching and log processing
-│   └── models.py            # Dataclasses ensuring strict JSON reporting standards
-│
-└── transport/               # Secure Communication Layer
-    ├── __init__.py
-    └── ssh.py               # Fabric-based secure log fetching and remote execution
-
 
 ## Live Demo
 
