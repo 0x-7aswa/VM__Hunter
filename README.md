@@ -6,6 +6,9 @@ VM Threat Hunter is an advanced, agentless, automated Threat Hunting Tool engine
 Developed as a Capstone Project for the National Telecommunications Institute (NTI) 4-Month Scholarship, this platform demonstrates enterprise-grade software architecture, seamless UI/UX, and robust Hunt Reporting capabilities suitable for modern SOC environments.
 
 
+## Project Structure
+![VM_Hunter_structure](project structure.txt)
+
 ## Live Demo
 
 ![VM Hunter Demo](assets/demo.png)
